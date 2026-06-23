@@ -1,0 +1,25 @@
+{
+  "name": "maison-connect",
+  "version": "1.0.0",
+  "description": "Mini projet JavaScript orienté objet pour gérer une maison connectée.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "javascript",
+    "poo",
+    "git-flow",
+    "eslint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.5.0",
+    "globals": "^17.7.0",
+    "husky": "^9.1.7"
+  }
+}

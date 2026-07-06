@@ -8,4 +8,12 @@ export class Piece {
   ajouterAppareil(appareil) {
     this.appareils.push(appareil);
   }
+  
+  afficherDetails() {
+    return {
+      nom: this.nom,
+      surface: this.surface,
+      appareils: this.appareils.map((appareil) => appareil.afficherEtat())
+    };
+  }
 }

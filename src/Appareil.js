@@ -12,4 +12,8 @@ export class Appareil {
   eteindre() {
     this.estAllume = false;
   }
+  
+  afficherEtat() {
+    return `${this.nom} (${this.type}) est ${this.estAllume ? "allumé" : "éteint"}`;
+  }
 }

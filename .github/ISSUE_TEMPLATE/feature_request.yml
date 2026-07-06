@@ -1,0 +1,22 @@
+name: Feature request
+description: Proposer une nouvelle fonctionnalité
+title: "[FEATURE] "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      description: Explique le besoin ou le problème à résoudre.
+      placeholder: Exemple = Ajouter une alarme à la maison.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+      description: Décris la fonctionnalité souhaitée.
+    validations:
+      required: true

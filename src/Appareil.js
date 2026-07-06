@@ -8,4 +8,8 @@ export class Appareil {
   allumer() {
     this.estAllume = true;
   }
+
+  eteindre() {
+    this.estAllume = false;
+  }
 }

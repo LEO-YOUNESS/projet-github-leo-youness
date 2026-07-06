@@ -4,4 +4,8 @@ export class Piece {
     this.surface = surface;
     this.appareils = [];
   }
+  
+  ajouterAppareil(appareil) {
+    this.appareils.push(appareil);
+  }
 }

@@ -3,14 +3,14 @@ name: Lint
 on:
   push:
     branches:
-      - main
+      - prod
       - develop
       - "feature/**"
       - "release/**"
       - "hotfix/**"
   pull_request:
     branches:
-      - main
+      - prod
       - develop
 
 jobs:

@@ -4,4 +4,8 @@ export class Appareil {
     this.type = type;
     this.estAllume = false;
   }
+
+  allumer() {
+    this.estAllume = true;
+  }
 }

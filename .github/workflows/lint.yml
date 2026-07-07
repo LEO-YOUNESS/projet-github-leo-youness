@@ -4,14 +4,15 @@ on:
   push:
     branches:
       - prod
-      - develop
+      - dev
       - "feature/**"
+      - "fix/**"
       - "release/**"
       - "hotfix/**"
   pull_request:
     branches:
       - prod
-      - develop
+      - dev
 
 jobs:
   lint:

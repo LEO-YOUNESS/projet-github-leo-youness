@@ -21,3 +21,5 @@ cuisine.ajouterAppareil(frigo);
 maison.ajouterPiece(salon);
 maison.ajouterPiece(cuisine);
 maison.ajouterPiece(cave);
+
+const coffreFort = new CoffreFort("1234");

@@ -23,3 +23,5 @@ maison.ajouterPiece(cuisine);
 maison.ajouterPiece(cave);
 
 const coffreFort = new CoffreFort("1234");
+
+console.log(coffreFort.deverrouiller("1234"));

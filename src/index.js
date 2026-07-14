@@ -12,3 +12,12 @@ const cave = new Cave(10, 12);
 
 const television = new Appareil("Télévision", "Multimédia");
 const frigo = new Appareil("Réfrigérateur", "Électroménager");
+
+television.allumer();
+
+salon.ajouterAppareil(television);
+cuisine.ajouterAppareil(frigo);
+
+maison.ajouterPiece(salon);
+maison.ajouterPiece(cuisine);
+maison.ajouterPiece(cave);

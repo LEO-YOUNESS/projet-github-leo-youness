@@ -25,3 +25,5 @@ maison.ajouterPiece(cave);
 const coffreFort = new CoffreFort("1234");
 
 console.log(coffreFort.deverrouiller("1234"));
+console.log(maison.afficherMaison());
+console.log(cave.afficherTemperature());

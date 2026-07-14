@@ -7,5 +7,4 @@ coverage/
 *.log
 
 coffre-fort.secret.json
-Coffre-fort.js
 cave-privee/

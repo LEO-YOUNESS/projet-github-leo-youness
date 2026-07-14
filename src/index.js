@@ -1,0 +1,27 @@
+import { Maison } from "./Maison.js";
+import { Piece } from "./Piece.js";
+import { Cave } from "./Cave.js";
+import { Appareil } from "./Appareil.js";
+import { CoffreFort } from "./CoffreFort.js";
+
+const maison = new Maison("12 rue des Lilas");
+
+const salon = new Piece("Salon", 25);
+const cuisine = new Piece("Cuisine", 15);
+const cave = new Cave(10, 12);
+
+const television = new Appareil("Télévision", "Multimédia");
+const frigo = new Appareil("Réfrigérateur", "Électroménager");
+
+television.allumer();
+
+salon.ajouterAppareil(television);
+cuisine.ajouterAppareil(frigo);
+
+maison.ajouterPiece(salon);
+maison.ajouterPiece(cuisine);
+maison.ajouterPiece(cave);
+
+const coffreFort = new CoffreFort("1234");
+
+console.log(coffreFort.deverrouiller("1234"));
